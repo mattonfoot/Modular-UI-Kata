@@ -23,6 +23,4 @@ Possible Goals
 1.  Find a way to safely make the Carousel module have less dependencies
 2.  Find a way to safely make the Carousel framework independant, i.e. no mootools or jQuery
 3.  Find ways to lock down the Required Behavior through the implementation of tests and make it ready for refactoring
-4.  Look refactor the module to progressivly enhance the webpage by either;
-  a.  make initial HTML a single empty HTML element or
-  b.  provide the default slide HTML in the webpage and then "Enhance" the component by adding the additional behaviour to load extra slides on demand.
+4.  Look to refactor the module to progressivly enhance the webpage by either: making the initial HTML a single empty HTML element or provide the default slide HTML in the webpage and then "Enhance" the component by adding the additional behaviour to load extra slides on demand.
