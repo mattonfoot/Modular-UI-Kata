@@ -1,0 +1,28 @@
+#vid { width:300px; overflow:hidden; }
+#weather { width:438px !important; width:437px; }
+
+#choice { float:left; width:418px; margin:0 10px !important; margin:0 9px; overflow:hidden; }
+
+#topratedtitle { width:145px; height:33px; background:url(http://images.laterooms.com/dizzy/homepage/270509/en/toprated.gif) no-repeat; }
+#searchtitle { background:url(http://images.laterooms.com/dizzy/en/layout/search-title.png) no-repeat 0px 8px; }
+
+/* Bubbles */
+#home { position:relative; width:960px; margin:0 auto; }
+#bubactivate { display:none; position:absolute; left:370px; top:350px; width:260px; height:250px; cursor:pointer; background:url(http://images.laterooms.com/order/en/homepage/bubble-activate.png) no-repeat center center; }
+#bubobject { position:absolute; left:0px; top:0px; width:960px; height:960px; z-index:5550; overflow:hidden; }
+#bubble-install { position:absolute; left:390px; top:420px; width:240px; height:250px; text-align:center; }
+#bubCont { position:relative; width:960px; height:960px; }
+#bubloader { position:absolute; left:370px; top:350px; width:260px; height:250px; background:url(http://images.laterooms.com/dizzy/layout/ajax-loader-big.gif) no-repeat center center; text-align:center; }
+
+
+
+/* top visited destinations */
+#dest .grid_x { width:181px; height:255px; text-align:center; margin:5px 5px 0 0; background:#fff; overflow:hidden; }
+#dest .omega { width:184px; margin-right:0; }
+#dest .pad { margin:0 5px; }
+#dest .mid { height:296px; }
+#dest .dest { display:block; font-size:24px; color:#333; padding-bottom:4px; }
+#dest .from { display:block; font-size:10px; color:#333; line-height:1.5em; }
+#dest .price { display:block; font-size:24px; color:#fe7d15; }
+#dest a { text-decoration:none }
+#dest a img { width:169px; height:169px; margin:6px auto; }

@@ -1,0 +1,136 @@
+﻿#content { margin:0; }
+.container a { color:#411485; font-weight:bold; }
+#top { margin:0 auto 20px; }
+	#top .grid_x { height:330px; }
+
+#mid { margin:0px auto 20px auto; }
+	#mid .grid_x { height:250px; }
+
+#email { margin-bottom:20px; }
+	#email .title img, #booking .title img { width:170px; height:27px; }
+	#email .mid { height:auto; }
+	#booking .mid { height:80px; }
+		#dealscont .pad { margin:0 5px; }
+		#dealscont p { font-size:11px; padding:7px 0; }
+	#email input.txt { font-size:11px; width:165px; }
+	#email .txtrgt { padding-top:8px; }
+	
+/* Deals by email css below */	
+	#emaildeals { margin-bottom:20px; }
+	#emaildeals .emailtitle img, #booking .emailtitle img { width:172px; height:30px; }
+	#emaildeals .mid { height:238px; }
+		#emaildeals p { font-size:12px; padding:6px 4px; line-height:14px; }
+		#emaildeals a { font-weight:normal; }
+	#emaildeals input.txt { font-size:11px; width:165px; }
+	#emaildeals .txtrgt { margin:6px 2px; }
+	.dealstextbox { text-align:center; }
+		#txtDByEmail { width:160px; font-size:12px; color:#999; font-family:arial; }
+	
+	.twitfacricon { margin:3px 0 0; }
+		.twitfacricon a { margin:0 5px 0 0; }
+/* end */	
+	
+
+#dealscont { width:182px; }
+#vid { width:300px; }
+
+#weather { width:416px !important; width:415px; }
+#weather .mid { height:238px; }
+#weather .pad { margin:0 5px; }
+
+#weather table { width:100%; }
+#weather table tr { background:url(http://images.laterooms.com/dizzy/homepage/splitter.gif) no-repeat center bottom; font-size:12px; }
+
+#weather table tr td { height:22px; line-height:20px; font-size:11px; }
+#weather a.non:hover { text-decoration:underline; }
+#weather a { font-size:12px; font-weight:bold; text-decoration:none; color:#0a0545; }
+#weather a.pr { color:#fe7d15; }
+td.deg { text-align:right; }
+td.deg img { width:35px; height:15px; }
+
+/*   S E A R C H   P A N E L   */
+#find { width:182px; height:auto !important; background:#feb415 url(http://images.laterooms.com/dizzy/betasearch/4/searchbg.gif) repeat-x left top; }
+	#find #searchtitle { height:35px; padding:0; }
+	#find li { padding-bottom:10px; line-height:1em; }
+	#find label { display:block; color:#252525; font-weight:bold; font-size:12px; padding-bottom:4px; }
+	#find input.txt { width:156px; }
+	#find select.txt { width:160px; }
+	#find .pad { padding:5px 10px 0 10px; height:284px; }
+	#find .top, #find .bot { height:3px; padding:0; overflow:hidden; background:url(http://images.laterooms.com/dizzy/betasearch/4/searchtopbotbg.gif) no-repeat left top; }
+	#find .bot { background-position:0px -3px; }
+	select#ddlRoomType { width:auto; min-width:102px; }
+	#find .txtrgt { padding-top:10px; z-indez:9999; }
+	
+	
+/*   T E A S E R   T E X T   */
+#teaser { width:271px !important; width:267px; overflow:hidden; }
+	#teaser h1 { margin-top:13px; }
+	#teaser p { padding-bottom:1em; }
+
+/*   T O P   R A T E D   */
+#toprated { width:447px; }
+	#toprated a { text-decoration:none }
+	#toprated .top { overflow:hidden; height:6px; background:url(http://images.laterooms.com/dizzy/homepage/270509/bg.gif) no-repeat 0px 0px; }
+	#toprated .mid { border-left:0; border-right:0; height:318px; background:url(http://images.laterooms.com/dizzy/homepage/270509/bg.gif) repeat-y -894px 0px; }
+	#toprated .bot { height:6px; background:url(http://images.laterooms.com/dizzy/homepage/270509/bg.gif) no-repeat -447px 0px; }
+	#toprated .pad { position:relative; width:430px; padding:2px 0; margin:0 8px 0 8px; }
+
+	#tr-frameslide { width:4300px; }
+	#tr-viewport { position:relative; overflow:hidden; width:430px; height:314px; }
+	.tr-frame { position:relative; float:left; width:430px; height:314px; }
+	.tr-frame img { width:430px; height:320px; }
+	.tr-details, .tr-detailsbg { position:absolute; left:0px; top:249px; width:430px; height:50px; }
+		.tr-details { padding:5px 0 0 0; height:40px; z-index:2000; overflow:hidden; }
+		.tr-detailsbg { background:#fff; opacity:0.7; z-index:1000;  }
+
+		.tr-slot, .tr-slot2 { height:40px; padding:0 0 0 20px; float:left; }
+		.tr-slot2 { float:right; padding:0 25px 0 10px; margin-left:10px; border-left:1px solid #411485; }
+			.tr-from { color:#222; font-size:13px; padding:4px 0 2px 0; font-weight:normal; }
+			.tr-price { color:#411485; font-size:14px; letter-spacing:0; font-weight:bold; }
+			.tr-hotelname { color:#411485; padding:5px 0 2px 0; font-weight:bold; font-size:13px; }
+			.tr-location { color:#222; font-size:13px; font-weight:normal; }
+
+	#arrow-lft, #arrow-rgt { z-index:4000; cursor:pointer; position:absolute; left:-28px; top:255px; width:42px; height:42px; background:url(http://images.laterooms.com/dizzy/homepage/270509/controls.png) no-repeat !important; background:url(http://images.laterooms.com/dizzy/homepage/270509/controls.gif) no-repeat; }
+		#arrow-rgt { left:416px; background-position:-42px 0px !important; }
+		
+	#toprateload { z-index:3000; display:none; background:#333 url(http://images.laterooms.com/order/shared/loaders/home-toprated-load.gif) no-repeat center center; position:absolute; left:0px; top:0px; width:430px; height:314px; }
+	#topratedtitle { position:absolute; right:0px; top:0px; z-index:4000;  }
+
+#brands { padding:10px 0; text-align:center; }
+	#brands img { width:96px; height:50px; }
+
+.esseeeowelinks { text-align:center; margin:0; }
+.esseeeowelinks a { font-size:11px; font-weight:normal; text-decoration:none; }
+.esseeeowelinks a:hover { text-decoration:underline; }
+.esseeeowelinkstitle { font-size:11px; text-decoration:none; font-weight:bold; color:#411485; }
+		
+.diag { background:transparent url(http://images.laterooms.com/dizzy/layout/bluebg.gif) repeat scroll 0 0; }
+	.ctop, .ctop div, .cbot, .cbot div { overflow:hidden; height:6px; background:url(http://images.laterooms.com/dizzy/homepage/270509/panel-topbot.gif) no-repeat right top; }
+	.ctop div, .cbot div { float:left; width:3px; }
+	.ctop div { background-position:left top; }
+	.cbot { background-position:right -6px; }
+	.cbot div { background-position:left -6px; }
+	.mid { border-left:1px solid #ccc; border-right:1px solid #ccc; }
+	
+.diag-de { height: 250px; background:transparent url(http://images.laterooms.com/dizzy/layout/deals-de.jpg) no-repeat scroll 0 0; }
+    #email .deals-p { padding:70px 0 5px 5px; font-size: 11px; font-weight:bold; color:#070335; }
+	.mid { border-left:medium none; border-right:medium none; }
+	.txtDByEmail { padding-top:9px !important; text-align: center; }
+	.moo-tip-trigger { color:#070335; text-decoration:underline; border-bottom: medium none; }
+	.deals-b-title { font-size:13px; font-weight:bold; }
+	.deals-b-list { display:block; margin:0 0 0 25px; font-size:11px; font-weight:bold; }
+	.dealsTick { display:block; margin-left:5px; background:transparent url(http://images.laterooms.com/dizzy/layout/deals-tick.gif) no-repeat scroll 0 0; }	
+	.SignUpNewsLetter { position:absolute !important; bottom:1px !important; left:31px !important; position:relative; margin:35px 0 0 0; }
+	
+/* Forced width on center mid panel */	
+#promo { width:416px; }
+
+/*   A U T O   C O M P L E T E   */
+#suggestout { position:absolute; z-index:1000; }
+#suggest { position:relative; width:220px; padding:3px; border:1px solid #0a0545; background:#fff; filter:alpha(opacity=90); opacity:.9; display:none; }
+#suggest div { width:auto !important; width:100%; position:relative; z-index:100; cursor:pointer; padding:1px 1px 1px 3px; background-position:3px 2px; background-repeat:no-repeat; color:#0a0545; }
+#suggest div.hover { color:#fff; background-color:#0a0545; }
+#suggest span, #suggest b { font-weight:normal; font-size:11px; }
+#suggest b { float:right; font-weight:bold; padding-left:5px; }
+
+#social-widgets { float: left; margin: -17px 0 0 15px; z-index: -1; }
